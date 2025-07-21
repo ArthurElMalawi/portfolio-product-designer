@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design System pour Startup - Léna</title>
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/projet.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Loader -->
+    <div class="loader-container">
+      <div class="loader">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <circle class="loader-circle" cx="50" cy="50" r="45" />
+        </svg>
+        <div class="loader-text">Léna</div>
+      </div>
+    </div>
+
+    <!-- Bouton retour en haut -->
+    <a href="#" class="scroll-top-btn" id="scrollTopBtn">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Projet Hero -->
+    <section class="projet-hero">
+      <div class="container">
+        <h1 class="projet-title">Design System pour Startup</h1>
+        <p class="projet-context">
+          Création d'un système de design évolutif pour une startup en pleine
+          croissance
+        </p>
+        <div class="projet-cover">
+          <img
+            src="https://picsum.photos/800/400?random=2"
+            alt="Design System pour Startup"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Navigation du projet -->
+    <div class="projet-navigation site-navigation">
+      <div class="projet-nav-container">
+        <a href="projet-1.html" class="projet-nav-btn prev-projet">
+          <i class="fas fa-arrow-left"></i> Projet précédent
+        </a>
+        <a href="../index.html" class="projet-nav-btn home-projet">
+          <i class="fas fa-home"></i> Accueil
+        </a>
+        <a href="projet-3.html" class="projet-nav-btn next-projet">
+          Projet suivant <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Pitch / Objectif -->
+    <section class="projet-pitch">
+      <div class="container">
+        <div class="pitch-bubble">
+          <h2>Le défi</h2>
+          <p>
+            Concevoir un système de design complet et cohérent pour une startup
+            en pleine croissance qui développe plusieurs produits numériques en
+            parallèle. L'objectif était de créer une base solide et évolutive
+            permettant aux équipes de design et de développement de travailler
+            efficacement tout en maintenant une identité visuelle cohérente.
+          </p>
+          <div class="stats-container">
+            <div class="stat-badge">
+              <span class="stat-number">60%</span>
+              <span class="stat-label">Gain de temps</span>
+            </div>
+            <div class="stat-badge">
+              <span class="stat-number">3</span>
+              <span class="stat-label">Produits unifiés</span>
+            </div>
+            <div class="stat-badge">
+              <span class="stat-number">95%</span>
+              <span class="stat-label">Cohérence</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Méthodologie -->
+    <section class="projet-methodologie">
+      <div class="container">
+        <h2 class="section-title">Ma démarche</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Audit & Inventaire</h3>
+              <p>
+                Analyse des interfaces existantes et inventaire des composants
+                utilisés à travers les différents produits.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Définition des principes</h3>
+              <p>
+                Établissement des principes fondamentaux du design system en
+                collaboration avec les parties prenantes.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Création des fondations</h3>
+              <p>
+                Définition des couleurs, typographie, espacement, grilles et
+                autres éléments fondamentaux.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Conception des composants</h3>
+              <p>
+                Design des composants UI réutilisables avec leurs variantes et
+                états.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Documentation & Implémentation</h3>
+              <p>
+                Création d'une documentation complète et mise en place d'une
+                bibliothèque de composants dans Figma.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="stakeholder-map">
+          <h3>Organisation du Design System</h3>
+          <img
+            src="https://picsum.photos/800/400?random=12"
+            alt="Design System Structure"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Personas -->
+    <section class="projet-personas">
+      <div class="container">
+        <h2 class="section-title">Utilisateurs cibles</h2>
+        <div class="personas-container">
+          <div class="persona-card">
+            <div class="persona-portrait">
+              <img
+                src="https://picsum.photos/200/200?random=23"
+                alt="Persona 1"
+              />
+            </div>
+            <div class="persona-info">
+              <h3>Sophie, 31 ans</h3>
+              <p class="persona-role">Designer UI/UX</p>
+              <div class="persona-details">
+                <p>
+                  <strong>Objectifs :</strong> Créer des interfaces cohérentes
+                  rapidement, maintenir une qualité constante dans ses designs.
+                </p>
+                <p>
+                  <strong>Besoins :</strong> Accès facile aux composants,
+                  documentation claire, flexibilité pour adapter les composants.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="persona-card">
+            <div class="persona-portrait">
+              <img
+                src="https://picsum.photos/200/200?random=24"
+                alt="Persona 2"
+              />
+            </div>
+            <div class="persona-info">
+              <h3>Lucas, 27 ans</h3>
+              <p class="persona-role">Développeur Front-end</p>
+              <div class="persona-details">
+                <p>
+                  <strong>Objectifs :</strong> Implémenter rapidement des
+                  interfaces, assurer la cohérence technique.
+                </p>
+                <p>
+                  <strong>Besoins :</strong> Spécifications techniques précises,
+                  composants bien documentés, code réutilisable.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wireframes & UI -->
+    <section class="projet-wireframes">
+      <div class="container">
+        <h2 class="section-title">Composants et documentation</h2>
+        <div class="wireframes-gallery">
+          <div class="gallery-item">
+            <img
+              src="https://picsum.photos/600/400?random=35"
+              alt="Composants UI"
+            />
+            <div class="gallery-overlay">
+              <span>Composants de base</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://picsum.photos/600/400?random=36"
+              alt="Système de couleurs"
+            />
+            <div class="gallery-overlay">
+              <span>Système de couleurs</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://picsum.photos/600/400?random=37"
+              alt="Typographie"
+            />
+            <div class="gallery-overlay">
+              <span>Typographie</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://picsum.photos/600/400?random=38"
+              alt="Documentation"
+            />
+            <div class="gallery-overlay">
+              <span>Documentation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rétrospective -->
+    <section class="projet-retrospective">
+      <div class="container">
+        <div class="retrospective-container">
+          <h2 class="section-title">Ce que j'ai appris</h2>
+          <ul class="learnings-list">
+            <li>
+              <i class="fas fa-sitemap"></i>
+              <p>
+                L'importance d'une architecture bien pensée pour assurer
+                l'évolutivité du système
+              </p>
+            </li>
+            <li>
+              <i class="fas fa-users-cog"></i>
+              <p>
+                Comment impliquer efficacement les développeurs dans le
+                processus de création
+              </p>
+            </li>
+            <li>
+              <i class="fas fa-book"></i>
+              <p>
+                La valeur d'une documentation claire et accessible pour
+                l'adoption du système
+              </p>
+            </li>
+            <li>
+              <i class="fas fa-balance-scale"></i>
+              <p>
+                Trouver l'équilibre entre rigidité (cohérence) et flexibilité
+                (créativité)
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Retour -->
+    <section class="projet-contact">
+      <div class="container">
+        <div class="contact-container">
+          <div class="navigation-buttons">
+            <a href="../index.html" class="retour-btn">
+              <i class="fas fa-arrow-left"></i> Retour à l'Accueil
+            </a>
+            <a href="projet-3.html" class="next-project-btn">
+              Projet suivant <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+          <div class="designer-info">
+            <p>Léna - Product Designer</p>
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="social-link" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="#" class="social-link" aria-label="Behance">
+                <i class="fab fa-behance"></i>
+              </a>
+              <a href="#" class="social-link" aria-label="Dribbble">
+                <i class="fab fa-dribbble"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cursor Effect -->
+    <div class="cursor-effect"></div>
+
+    <!-- Scripts -->
+    <script src="../js/main.js"></script>
+    <script src="../js/navigation.js"></script>
+    <script src="../js/projet.js"></script>
+  </body>
+</html>

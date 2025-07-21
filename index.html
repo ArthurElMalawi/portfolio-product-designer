@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Léna - Product Designer</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader-container">
+        <div class="loader">
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <circle class="loader-circle" cx="50" cy="50" r="45"/>
+            </svg>
+            <div class="loader-text">Léna</div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1 class="hero-title">Léna</h1>
+                    <p class="hero-tagline">Product Designer</p>
+                    <p class="hero-description">Je crée des expériences numériques intuitives et esthétiques</p>
+                </div>
+                <div class="hero-image">
+                    <img src="https://picsum.photos/800/1000" alt="Léna - Product Designer">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav site-navigation">
+        <div class="container">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#projets" class="nav-link">Projets</a></li>
+                <li class="nav-item"><a href="#a-propos" class="nav-link">À propos</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <section id="projets" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Mes Projets</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-index="0">
+                    <div class="project-image">
+                        <img src="https://picsum.photos/600/400?random=1" alt="Projet 1">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Refonte UX/UI Application Mobile</h3>
+                        <p class="project-description">Amélioration de l'expérience utilisateur pour une application de gestion de tâches.</p>
+                        <a href="projets/projet-1.html" class="project-link">Voir le projet</a>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card" data-index="1">
+                    <div class="project-image">
+                        <img src="https://picsum.photos/600/400?random=2" alt="Projet 2">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Design System pour Startup</h3>
+                        <p class="project-description">Création d'un système de design complet pour une startup en croissance.</p>
+                        <a href="projets/projet-2.html" class="project-link">Voir le projet</a>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card" data-index="2">
+                    <div class="project-image">
+                        <img src="https://picsum.photos/600/400?random=3" alt="Projet 3">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Interface Produit Connecté</h3>
+                        <p class="project-description">Conception de l'interface utilisateur pour un produit IoT innovant.</p>
+                        <a href="projets/projet-3.html" class="project-link">Voir le projet</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="a-propos" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://picsum.photos/400/500" alt="Léna - À propos">
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">À propos</h2>
+                    <div class="about-stamp">
+                        <p>Designer produit passionnée par la création d'expériences utilisateur intuitives et esthétiques. Je combine recherche utilisateur, design thinking et créativité pour concevoir des produits numériques qui répondent aux besoins des utilisateurs tout en étant visuellement attrayants.</p>
+                        <p>Avec une formation en design et plusieurs années d'expérience dans le domaine, j'ai développé une approche centrée sur l'humain qui place l'utilisateur au cœur de chaque décision de conception.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>Vous avez un projet en tête ? N'hésitez pas à me contacter pour en discuter !</p>
+                    <a href="mailto:lena@example.com" class="contact-email">lena@example.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Léna</div>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Behance">
+                        <i class="fab fa-behance"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Dribbble">
+                        <i class="fab fa-dribbble"></i>
+                    </a>
+                </div>
+                <div class="footer-copyright">
+                    &copy; 2025 Léna. Tous droits réservés.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cursor Effect -->
+    <div class="cursor-effect"></div>
+
+    <!-- Scripts -->
+    <script src="js/navigation.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
