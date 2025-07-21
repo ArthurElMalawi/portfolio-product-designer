@@ -304,6 +304,7 @@ p {
     padding: var(--spacing-xl) 0 var(--spacing-lg);
     position: relative;
     overflow: hidden;
+    height: 90vh;
 }
 
 .hero {
@@ -356,7 +357,7 @@ p {
 
 .hero-image {
     width: 100%;
-    max-width: 500px;
+    max-width: 53vh;
     margin-top: var(--spacing-md);
     position: relative;
     z-index: 1;
@@ -367,6 +368,7 @@ p {
     box-shadow: var(--shadow-lg);
     transform: rotate(-2deg);
     transition: transform var(--transition-medium);
+    max-height: 67vh;
 }
 
 .hero-image img:hover {
@@ -766,6 +768,10 @@ p {
     
     .theme-toggle {
         right: var(--spacing-sm);
+    }
+
+    .projet-navigation {
+        display: none;
     }
 }
 
