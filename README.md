@@ -53,6 +53,11 @@ Chaque projet dispose d'une page détaillée avec :
 - Font Awesome pour les icônes
 - Animations SVG pour les transitions
 
+## 🌐 Site en ligne
+
+Le portfolio est accessible en ligne à l'adresse suivante :
+[https://portfolio-product-designer.vercel.app/](https://portfolio-product-designer.vercel.app/)
+
 ## 🚀 Comment utiliser
 
 1. Clonez ce dépôt
